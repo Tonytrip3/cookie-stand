@@ -11,19 +11,20 @@
     <div align="center">
     <h1>Pat's Sales Figures</h1>
 
-    <img src="./salmon.png" vspace="50" height="200" width="550">
+    <img src=".\img library\salmon.png" vspace="50" height="200" width="550">
 
     <form id = 'forms'>
         <fieldset>
             <legend>New Location Input</legend>
-            Location:
-            <input type="text" name="name" value="">
-            Minimum Customers:
-            <input type="number" step="0.1" name="minCust" value="">
-            Maximum Customers:
-            <input type="number" step="0.1" name="maxCust" value="">
-            Average Cookies Sold:
-            <input type="number" step="0.1" name="avgCookiePerSale" value="">
+            <label for="name">Location:</label>
+            <input type="text" name="name" value=""/>
+        
+            <label for="minCust">Minimum Customers:</label>
+            <input type="number" step="0.1" name="minCust" value=""/>
+            <label for="maxCust">Maximum Customers:</label>
+            <input type="number" step="0.1" name="maxCust" value=""/>
+            <label for="avgCookiePerSale">Average Cookies Sold:</label>
+            <input type="number" step="0.1" name="avgCookiePerSale" value=""/>
             <br>
             <input type="submit" value="Submit">
             <button type="reset" value="Reset">Reset</button>
@@ -31,7 +32,11 @@
     </form> 
 
     <section id='stores'></section>
-    <table id='store-table'></table>
+    <table id='store-table'>
+        <thead id='thead'></thead>
+        <tbody id='tbody'></tbody>
+        <tfoot id='tfoot'></tfoot>
+    </table>
 
     </div>
     <script src= main.js></script>
