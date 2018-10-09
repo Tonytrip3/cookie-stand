@@ -1,4 +1,5 @@
 'use strict';
+
 //Store Objects For Sale Page
 var Store = function(name, minCust, maxCust, avgCookiePerSale){
   this.name = name;
@@ -129,8 +130,6 @@ var storeGeneration = function(submit){
   renderAsATableBody();
   renderAsATableFooter();
 };
-
-console.log(storeArray);
 
 //Store Variables
 var store1 = new Store('1st and Pike', 23, 65, 6.3, []);

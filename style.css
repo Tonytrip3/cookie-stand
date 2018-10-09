@@ -7,6 +7,11 @@ h1 {
     margin-left: 20px;
 }
 
+h2 {
+    color: rgb(182, 99, 65);
+    margin-left: 20px;
+}
+
 table, th, td {
     border: 1px solid gray;
 }
